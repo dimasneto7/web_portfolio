@@ -6,10 +6,36 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Fone</LinkTitle>
+          <LinkItem href="11 97233-4851">(11) 97233-4851</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>E-mail</LinkTitle>
+          <LinkItem href="mailto:dimas_fcn@outlook.com">dimas_fcn@outlook.com</LinkItem>
+        </LinkColumn>
+        <SocialIconsContainer>
+          <CompanyContainer>
+            <Slogan>Innovating one project at a time</Slogan>
+          </CompanyContainer>
+          <SocialContainer>
+            <SocialIcons href="https://github.com/dimasneto7">
+              <AiFillGithub size="3rem" />
+            </SocialIcons>
+            <SocialIcons href="https://www.linkedin.com/in/dimas-neto-136aa91a5/">
+              <AiFillLinkedin size="3rem" />
+            </SocialIcons>
+            <SocialIcons href="https://instagram.com">
+              <AiFillInstagram size="3rem" />
+            </SocialIcons>
+          </SocialContainer>
+        </SocialIconsContainer>        
+      </LinkList>
+    </FooterWrapper>
   );
 };
 
 export default Footer;
+ 

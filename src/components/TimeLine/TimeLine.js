@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionSubText, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -43,9 +43,12 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id="about">
+      <SectionTitle>Sobre Mim</SectionTitle>
+      <SectionText>
+      Olá. Meu nome é Dimas Neto. Eu sou Desenvolvedor Front-end. Sou graduado em Publicidade e Propaganda. Tenho conhecimento em HTML, CSS, Javascript, Typescript, React JS, Next JS e Node JS. 
+      </SectionText>
+    </Section>
   );
 };
 
