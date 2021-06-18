@@ -18,6 +18,14 @@ export const Container = styled.div`
   }
 `;
 
+export const Img = styled.img`
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+  image: '/images/logodimas.png',
+`
+
 export const Span = styled.span`
   font-size: 2rem;
 `;
