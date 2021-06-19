@@ -72,7 +72,7 @@ export const SectionText = styled.p`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 16px;
+    padding-bottom: 40px;
   }
 `
 export const SectionSubText = styled.p`
@@ -218,7 +218,7 @@ export const ButtonFront = styled.button`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 14px;
+    font-size: 2rem;
   }
 `
 
