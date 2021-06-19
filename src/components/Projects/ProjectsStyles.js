@@ -27,7 +27,7 @@ row-gap: 3rem;
 
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 15px rgba(40, 78, 78, 0.7);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -81,6 +81,10 @@ letter-spacing: 4px;
 transition: 0.5s;
 &:hover{
   background: #adadae;
+
+}
+@media ${(props) => props.theme.breakpoints.sm} {
+  font-size: 1rem;
 
 }
 `;
