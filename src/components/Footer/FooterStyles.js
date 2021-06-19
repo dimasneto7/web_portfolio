@@ -71,7 +71,7 @@ export const SocialContainer = styled.div`
 		flex-wrap: wrap;
 	}
 	@media ${props => props.theme.breakpoints.sm}{
-		
+		display: none;
 	}
 `
 

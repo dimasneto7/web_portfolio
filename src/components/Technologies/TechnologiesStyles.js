@@ -8,10 +8,11 @@ export const IconList = styled.div`
   padding-top:7rem;
   @media ${props => props.theme.breakpoints.sm}{
     display: grid;    
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
-    gap: 3rem;    
+    gap: 2rem; 
+    margin-left: 2rem;
   } 
 `;
 
