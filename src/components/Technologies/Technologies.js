@@ -1,19 +1,23 @@
 import React from 'react';
-import { DiFirebase, DiNodejs, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { DiNodejs, DiReact, DiGit, DiJavascript1, DiDocker, DiSass, DiPostgresql} from 'react-icons/di';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, IconList} from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider />
     <br />
     <SectionTitle>Tecnologias</SectionTitle>
-    <SectionText>
-      Eu trabalho com todas essas tecnologias para o desenvolvimento web.
-    </SectionText>
+    <IconList>
+      <DiJavascript1 size="6rem" />
+      <DiReact size="6rem" />
+      <DiNodejs size="16rem" />
+      <DiGit size="6rem" />
+      <DiDocker size="8rem" />
+      <DiSass size="5.5rem" />
+      <DiPostgresql size="5.5rem" />
+    </IconList>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
@@ -23,7 +27,6 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiNodejs size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -33,7 +36,6 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
         <ListContainer>
           <ListTitle>UI-UX</ListTitle>
           <ListParagraph>

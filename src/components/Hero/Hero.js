@@ -9,12 +9,12 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Olá!<br />
-        Seja bem vindo ao meu Portifólio
+        Eu sou Dimas Neto
       </SectionTitle>
       <SectionText>
-        Sou Desenvolvedor Front-end, com experiência em ReactJS, NextJS e NodeJS.
+        Desenvolvedor Front-End, com experiência em ReactJS, NextJS e NodeJS.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Saiba Mais</Button>
+      <Button onClick={() => window.location = './images/dimasneto.pdf'}>Currículo</Button>
     </LeftSection>
   </Section>
 );

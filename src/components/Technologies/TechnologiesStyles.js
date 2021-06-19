@@ -25,7 +25,15 @@ export const ImageContainer = styled.div`
 
 export const MainImage = styled.img`
   width: 100%;
-`
+`;
+
+export const IconList = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 6rem;
+  padding-top:7rem;
+`;
 
 export const List = styled.ul`
   list-style-type: none;
@@ -58,11 +66,12 @@ export const ListContainer = styled.div`
     display: flex;
     margin-left: 18px;
   }
-`
+`;
+
 
 export const ListTitle = styled.h4`
   font-weight: 700;
-  font-size: 28px;
+  font-size: 28px;  
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
@@ -101,6 +110,8 @@ export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
+  padding-top: 7rem;
+  margin-bottom: 16rem;
 
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;

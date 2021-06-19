@@ -6,6 +6,7 @@ export const FooterWrapper = styled.section`
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
+  margin-top: 15rem;
 
 
   @media ${props => props.theme.breakpoints.sm} {
