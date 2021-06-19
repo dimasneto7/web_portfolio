@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiNodejs, DiReact, DiGit, DiJavascript1, DiDocker, DiSass, DiPostgresql} from 'react-icons/di';
+import { DiReact, DiGit, DiJavascript1, DiDocker, DiSass, DiPostgresql, DiNodejsSmall} from 'react-icons/di';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, IconList} from './TechnologiesStyles';
 
@@ -10,11 +10,11 @@ const Technologies = () =>  (
     <IconList>
       <DiJavascript1 size="6rem" />
       <DiReact size="6rem" />
-      <DiNodejs size="16rem" />
+      <DiNodejsSmall size="6rem" />
       <DiGit size="6rem" />
+      <DiPostgresql size="6rem" />
       <DiDocker size="8rem" />
       <DiSass size="5.5rem" />
-      <DiPostgresql size="5.5rem" />
     </IconList>
     <List>
       <ListItem>

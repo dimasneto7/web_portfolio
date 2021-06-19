@@ -17,9 +17,6 @@ const Footer = () => {
           <LinkItem href="mailto:dimas_fcn@outlook.com">dimas_fcn@outlook.com</LinkItem>
         </LinkColumn>
         <SocialIconsContainer>
-          <CompanyContainer>
-            <Slogan> </Slogan>
-          </CompanyContainer>
           <SocialContainer>
             <SocialIcons href="https://github.com/dimasneto7">
               <AiFillGithub size="3rem" />
